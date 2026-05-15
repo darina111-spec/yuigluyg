@@ -1,0 +1,161 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Дарина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Привет! Меня зовут Дарина.</h1>
+        <p>Мне 17 лет. Я только учусь на программиста, активно осваиваю новые технологии и помогаю переводить сложные технические данные в понятный визуальный формат.</p>
+
+        <!-- Официальный блок документов -->
+        <div class="document-block">
+            <div class="doc-header">ПЕРЕЧЕНЬ ПРОФЕССИОНАЛЬНЫХ НАВЫКОВ И КОМПЕТЕНЦИЙ</div>
+            <table class="doc-table">
+                <thead>
+                    <tr>
+                        <th>№ п/п</th>
+                        <th>Наименование навыка / Функционал</th>
+                    }
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Написание базового кода и верстка</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Создание стильных структурированных слайдов</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Подбор визуального стиля (коричневая и кофейная палитра)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>📂 Мои работы (Кейсы)</h2>
+        <ul>
+            <li><strong>Программирование:</strong> <span class="placeholder">[Сюда добавь название своего учебного проекта, например: Telegram-бот, калькулятор или мини-сайт]</span> — разработан с нуля в рамках обучения.</li>
+            <li><strong>Дизайн и презентации:</strong> Дизайн презентаций в строгом, профессиональном стиле с использованием шоколадных, бежевых и древесных оттенков. Такой фон снижает нагрузку на глаза и выглядит дорого.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
+/* Общие настройки страницы (Коричневая палитра) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2D1A12; /* Глубокий темно-коричневый фон */
+    color: #F5EBE6; /* Очень светлый бежевый текст */
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Главный контейнер по центру */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #3D251E; /* Кофейный фон для карточки */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Заголовки */
+h1 {
+    color: #E6C5B3; /* Нежный древесно-бежевый оттенок */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5A3A31;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #D4A373; /* Теплый карамельный цвет */
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+/* Стилизация строгого блока документов */
+.document-block {
+    background-color: #261610; /* Более темный фон для контраста документа */
+    border: 1px solid #5A3A31;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 6px;
+}
+
+.doc-header {
+    font-family: 'Courier New', Courier, monospace; /* Шрифт печатной машинки */
+    font-weight: bold;
+    text-align: center;
+    color: #D4A373;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+}
+
+.doc-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+}
+
+.doc-table th, .doc-table td {
+    border: 1px solid #5A3A31;
+    padding: 10px;
+    text-align: left;
+}
+
+.doc-table th {
+    background-color: #341E16;
+    color: #E6C5B3;
+}
+
+/* Списки кейсов */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #4A312A;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #D4A373;
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    transform: translateX(5px);
+    background-color: #543830;
+    border-left-color: #E6C5B3;
+}
+
+strong {
+    color: #FFF;
+}
+
+.placeholder {
+    color: #FFB703;
+    font-style: italic;
+}
+
+/* Адаптивная верстка */
+@media (max-width: 600px) {
+    body { padding: 5px; }
+    .container { padding: 20px; margin: 10px auto; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.2rem; }
+    .doc-table { font-size: 0.8rem; }
+}
+s
